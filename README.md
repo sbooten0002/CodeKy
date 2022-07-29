@@ -11,26 +11,40 @@ For my project I wanted to use the data from my _fitbit_ watch and analyze my sl
 Using Python my project uses the Fitbit data I obtain from my Fitbit app. This data is on a csv file and collected for over a month. I'll be using serval different tools to analyze and display my data.  
 
 1.  Install Anaconda.
-2. Clone  this repository. To use this code, type the following into a command terminal:
+2. Open Jupyter Notebooks- I use VS code 
+3. Clone  this repository. To use this code, type the following into a command terminal:
 > git clone https://github.com/sbooten0002/CodeKy.git
-3. 
+
+---
+## Project Requirement and Features 
+
+This project has the following requirments and features: 
+
+1. Import CSV file. 
+2. Feature 2: Clean Data: 
+    The following is what I did: 
+
+        Remove all commas
+
+        Convert to numeric
+
+        Re-add date column
+
+3. Feature 3: Analysis
+   Determine and print average scores for a month
+
+4. Feature 4: Plot Data
+
+        Time series of Date vs Calories Burned
+
+        Radar chart of daily achievements
+
+
 
    
 
-### This is a sub-heading
-
-`this is code`
-
-This updates as I type
-
-__this is bold__
-
-**This is also bold**
-
-_this is italic_
 
 
 
 
 
-__To veiw this project user will need to have Anaconda and Jupyter Notebooks in order to run code.__
